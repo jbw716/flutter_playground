@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Consumer<ThemeProvider>(
                 builder:
-                    (context, themeProvider, child) => MaterialButton(
+                    (context, themeProvider, child) => FilledButton(
                       onPressed: themeProvider.toggleTheme,
                       child: Text('Toggle Theme'),
                     ),
